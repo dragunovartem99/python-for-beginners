@@ -22,17 +22,24 @@ def get_result(first_option, second_option):
     result_messages = {
         "draw": "It's a draw! 😐",
         "win": "You win! 😀",
-        "lose": "You lose. 😢"
+        "lost": "You lose. 😢"
+    }
+
+    # Who beats who, where the key is the winner
+    win_condition = {
+        "rock": "scissors",
+        "scissors": "paper",
+        "paper": "rock"
     }
 
     if first_option == second_option:
         result = result_messages["draw"]
 
-    elif first_option == "rock":
-        if second_option == "paper":
-            result = result_messages["lose"]
-        else:
+    else:
+        if win_condition[first_option] == second_option:
             result = result_messages["win"]
+        else:
+            result = result_messages["lost"]
 
     return info + result
 
