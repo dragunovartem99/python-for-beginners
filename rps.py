@@ -3,6 +3,7 @@ import random
 first_player_name = "Human"
 second_player_name = "Computer"
 
+
 def get_choices():
     player_choice = input("[Rock, paper, scissors] Enter a choice => ")
 
@@ -16,6 +17,7 @@ def get_choices():
     }
 
     return choices
+
 
 def get_result(first_option, second_option):
     info = f"{first_player_name} chose {first_option}, {second_player_name} chose {second_option}. "
@@ -44,6 +46,7 @@ def get_result(first_option, second_option):
             result = result_messages["lost"]
 
     return info + result
+
 
 choices = get_choices()
 game_termination = get_result(choices[first_player_name], choices[second_player_name])
