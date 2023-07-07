@@ -19,10 +19,12 @@ def get_choices():
 
 
 def get_result(first_option, second_option):
-	if first_option not in options:
+	if first_option.lower() not in options:
 		return f'"{first_option}" is not an option! You can choose rock, paper or scissors. Try again!'
 
-	info = f"{first_player_name} chose {first_option.lower()}, {second_player_name} chose {second_option}. "
+	first_option = first_option.lower()
+
+	info = f"{first_player_name} chose {first_option}, {second_player_name} chose {second_option}. "
 
 	# It's kinda first-player-oriented
 	result_messages = {
