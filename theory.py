@@ -48,8 +48,6 @@ type_set = "Sets"
 abc = "Alphabet" # assignment
 
 # Arithmetic operators
-print()
-
 9 + 9 == 18 # addition
 12 - 5 == 7 # substraction
 8 * 8 == 64 # multiplication
@@ -61,8 +59,7 @@ print()
 # Negative numbers
 10 + -12 == -2
 
-# Plus can be is used to concat
-
+# Plus can be used to concat
 concatenated_by_plus = "Mario likes " + "shrooms"
 
 # We can combine assignment and arithmetic operators
