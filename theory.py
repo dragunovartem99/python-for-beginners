@@ -114,10 +114,10 @@ is_tasty = False
 
 ## Bitwise (rarely used, nobody knows what it does)
 
-# &  performs binary AND
-# |  performs binary OR
-# ^  performs binary XOR operation
-# ~  performs binary NOT operation
+# & performs binary AND
+# | performs binary OR
+# ^ performs binary XOR operation
+# ~ performs binary NOT operation
 # << shift left operation
 # >> shift right operation
 
@@ -131,4 +131,44 @@ is_tasty = False
 def is_adult(age):
     return True if age >= 18 else False
 
-print(is_adult(18))
+###########
+# Strings #
+###########
+
+double_quotes = "can be in double quotes"
+single_quotes = 'or in single quotes'
+
+# As long as quotes match it doesn't matter
+
+concatenated_string = double_quotes + " " + single_quotes
+
+# You can append to a string
+
+song_name = "Nothing"
+song_name += " breaks"
+song_name += " like"
+song_name += " a heart"
+
+release_year = str(2019) # just a reminder
+
+# String can be multi-line
+
+poem = '''Out of the night that covers me,
+    Black as the pit from pole to pole,
+I thank whatever gods may be
+    For my unconquerable soul.
+
+In the fell clutch of circumstance
+    I have not winced nor cried aloud.
+Under the bludgeonings of chance
+    My head is bloody, but unbowed.
+'''
+
+# or like this
+poem2 = """Beyond this place of wrath and tears
+    Looms but the Horror of the shade,
+And yet the menace of the years
+    Finds and shall find me unafraid.
+"""
+
+print(poem2)
