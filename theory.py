@@ -29,10 +29,12 @@ this_is_a_str = "Hello"
 this_is_a_int = 99
 this_is_a_float = 1.75
 
-# You can set variable to particular type
+## You can set variable to particular type
+
 this_is_a_float_now = float(99) # this is called casting
 
-# Other types
+## Other types
+
 type_complex = "Complex numbers"
 type_bool = "Booleans"
 type_list = "Lists"
@@ -47,7 +49,8 @@ type_set = "Sets"
 
 abc = "Alphabet" # assignment
 
-# Arithmetic operators
+## Arithmetic operators
+
 9 + 9 == 18 # addition
 12 - 5 == 7 # substraction
 8 * 8 == 64 # multiplication
@@ -56,12 +59,76 @@ abc = "Alphabet" # assignment
 3 ** 2 == 9 # exponent (power of)
 9 // 2 == 4 # floor division
 
-# Negative numbers
+## Negative numbers
+
 10 + -12 == -2
 
-# Plus can be used to concat
+## Plus can be used to concat
+
 concatenated_by_plus = "Mario likes " + "shrooms"
 
-# We can combine assignment and arithmetic operators
+## We can combine assignment and arithmetic operators
+
 kill_count = 19
 kill_count += 2 # kill_count = kill_count + 2
+
+## Comparison operators
+
+junior_salary = 72500
+senior_salary = 140000
+
+(junior_salary == senior_salary) == False
+(junior_salary != senior_salary) == True
+(junior_salary > senior_salary) == False
+(junior_salary <= senior_salary) == True
+
+## Boolean operators
+
+is_cheap = True
+is_tasty = False
+
+(not is_cheap) == False
+(not is_tasty) == True
+
+(not not is_cheap) == True
+
+(is_cheap and is_tasty) == False
+(is_cheap or is_tasty) == True
+
+## OR
+
+(0 or 2) == 2
+(False or "Truthy") == "Truthy"
+("Bonnie" or "Clyde") == "Bonnie"
+([] or False) == False
+(False or []) == []
+
+## AND
+
+(0 and 1) == 0
+(1 and 0) == 0
+(False and "Igor") == False
+("Igor" and "Evgeny") == "Evgeny"
+([] and False) == []
+(False and []) == False
+
+## Bitwise (rarely used, nobody knows what it does)
+
+# &  performs binary AND
+# |  performs binary OR
+# ^  performs binary XOR operation
+# ~  performs binary NOT operation
+# << shift left operation
+# >> shift right operation
+
+## Is & in operators
+
+# is - identity operator (compares 2 objects, returns true if they are the same)
+# in - membership operator (if the value is contained the list/other sequence)
+
+## Ternary operator
+
+def is_adult(age):
+    return True if age >= 18 else False
+
+print(is_adult(18))
