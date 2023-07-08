@@ -165,10 +165,17 @@ Under the bludgeonings of chance
 '''
 
 # or like this
-poem2 = """Beyond this place of wrath and tears
+
+poem_part_2 = """Beyond this place of wrath and tears
     Looms but the Horror of the shade,
 And yet the menace of the years
     Finds and shall find me unafraid.
 """
 
-print(poem2)
+scream = "no, god, please, no!".upper()
+whisper = "NOBODY SHOULD KNOW THIS...".lower()
+youtube_title = "typical title formatting usually looks like this".title()
+
+scream.isupper()
+whisper.islower()
+youtube_title.istitle()
