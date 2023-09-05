@@ -1,3 +1,5 @@
+course_link = "https://www.youtube.com/watch?v=eWRfhZUzrAc"
+
 #############
 # Variables #
 #############
@@ -131,9 +133,12 @@ is_tasty = False
 def is_adult(age):
     return True if age >= 18 else False
 
-###########
-# Strings #
-###########
+#############################
+#############################
+chapter_title = "STRINGS"
+chapter_timestamp = "1:09:40"
+#############################
+#############################
 
 double_quotes = "can be in double quotes"
 single_quotes = 'or in single quotes'
