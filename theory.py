@@ -172,6 +172,13 @@ And yet the menace of the years
     Finds and shall find me unafraid.
 """
 
+################################
+################################
+chapter_title = "STRING METHODS"
+chapter_timestamp = "1:12:36"
+################################
+################################
+
 scream = "no, god, please, no!".upper()
 whisper = "NOBODY SHOULD KNOW THIS...".lower()
 youtube_title = "typical title formatting usually looks like this".title()
