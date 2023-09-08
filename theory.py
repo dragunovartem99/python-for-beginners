@@ -204,3 +204,25 @@ youtube_title = "typical title formatting usually looks like this".title()
 scream.isupper()
 whisper.islower()
 youtube_title.istitle()
+
+string_method = "Python has a lot of methods for strings"
+
+string_method.isalpha() # only characters and nonempty
+string_method.isalnum() # only characters and digits
+string_method.isdecimal() # only digits
+string_method.startswith("Py")
+string_method.endswith("rings")
+string_method.replace("Python", "JavaScript")
+string_method.split(" ")
+string_method.strip() # trim whitespace from a string
+string_method.find("of")
+
+string_method.join("This is not working as expected!") # Read more
+
+# This methods are not modifying original string
+
+len(string_method) # Len can work with different data
+
+find_in_string = "ing"
+
+find_in_string in string_method
