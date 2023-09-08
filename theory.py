@@ -1,17 +1,24 @@
 course_link = "https://www.youtube.com/watch?v=eWRfhZUzrAc"
 
-#############
-# Variables #
-#############
+###########################
+###########################
+chapter_title = "VARIABLES"
+chapter_timestamp = "48:45"
+###########################
+###########################
 
 chessplayer_name = "Magnus"
 chessplayer_birthyear = 1990
 
 # Keywords = if, for, while, import.. and so on
+# Can't be used as variable name
 
-##############################
-# Expressions and statements #
-##############################
+############################################
+############################################
+chapter_title = "EXPRESSIONS AND STATEMENTS"
+chapter_timestamp = "51:21"
+############################################
+############################################
 
 # Expression returns a value
 # Statement is an operation with a value
@@ -19,9 +26,12 @@ chessplayer_birthyear = 1990
 
 2+2; 2*2 # You can write multiple statements separated by semicolon
 
-##############
-# Data types #
-##############
+############################
+############################
+chapter_title = "DATA TYPES"
+chapter_timestamp = "54:23"
+############################
+############################
 
 type("Check a type of a variable or value")
 type(1945) == int # check the type
@@ -45,9 +55,12 @@ type_range = "Ranges"
 type_dict = "Dictionaries"
 type_set = "Sets"
 
-#############
-# Operators #
-#############
+#############################
+#############################
+chapter_title = "OREPATORS"
+chapter_timestamp = "1:00:16"
+#############################
+#############################
 
 abc = "Alphabet" # assignment
 
