@@ -224,5 +224,16 @@ string_method.join("This is not working as expected!") # Read more
 len(string_method) # Len can work with different data
 
 find_in_string = "ing"
-
 find_in_string in string_method
+
+#####################################
+#####################################
+chapter_title = "ESCAPING CHARACTERS"
+chapter_timestamp = "1:16:41"
+#####################################
+#####################################
+
+escaping = 'Hello! You can call me "Ugly"'
+escaping = "Hello! You can call me \"Ugly\""
+escaping = "Hello!\nYou can put me on a new line"
+escaping = "Hello! You can even escape backslashes \\ ~boom~ \\"
