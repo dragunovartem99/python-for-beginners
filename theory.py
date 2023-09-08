@@ -226,6 +226,15 @@ len(string_method) # Len can work with different data
 find_in_string = "ing"
 find_in_string in string_method
 
+# String characters and slicing
+
+string_method[0] == "P"
+string_method[-1] == "s"
+string_method[0:1] == "P"
+string_method[1:4] == "yth"
+string_method[:6] == "Python"
+string_method[-7:] == "strings"
+
 #####################################
 #####################################
 chapter_title = "ESCAPING CHARACTERS"
